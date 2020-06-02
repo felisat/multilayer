@@ -62,7 +62,8 @@ def run_experiment(xp, xp_count, n_experiments):
         for i, client in enumerate(clients):
             client.synchronize_with_server(server)
             accs += [client.evaluate()["accuracy"]]
-        xp.log({"client_accuracies" : accs})    
+        xp.log({"client_accuracies" : accs}, printout=False)
+        xp.log({"mean_accuracy" : np.mean(accs)})    
 
         for client in tqdm(participating_clients):
             train_stats = client.compute_weight_update(hp["local_epochs"])  

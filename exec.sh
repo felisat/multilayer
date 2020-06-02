@@ -20,7 +20,7 @@ hyperparameters=' [{
 	"local_epochs" : [1],
 	"participation_rate" : [0.1],
 	"batch_size" : [128],
-	"layers" : ["^((?!fc3\\.bias).)*$", "bias", "weight"],
+	"layers" : [".*weight.*", ".*bias.*"],
 
 	"pretrained" : [null],
 	"save_model" : [null],
