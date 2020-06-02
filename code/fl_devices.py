@@ -37,6 +37,8 @@ def eval_op(model, loader):
 
     return {"accuracy" : correct/samples}
 
+def flatten(source):
+    return torch.cat([value.flatten() for value in source.values()])
 
 def copy(target, source):
     for name in target:
@@ -62,6 +64,16 @@ def reduce_add_average(target, sources):
         target[name].data += tmp
 
 
+def pairwise_angles(sources):
+    angles = torch.zeros([len(sources), len(sources)])
+    for i, source1 in enumerate(sources):
+        for j, source2 in enumerate(sources):
+            s1 = flatten(source1)
+            s2 = flatten(source2)
+            angles[i,j] = torch.sum(s1*s2)/(torch.norm(s1)*torch.norm(s2)+1e-8)
+
+    return angles.numpy()
+
 class FederatedTrainingDevice(object):
     def __init__(self, model_fn, data, batch_size, layers, train_frac=0.8):
         self.model = model_fn().to(device)
@@ -74,8 +86,7 @@ class FederatedTrainingDevice(object):
         self.eval_loader = DataLoader(data_eval, batch_size=batch_size, shuffle=True)
 
         self.W = {key : value for key, value in self.model.named_parameters() if re.match(layers, key)}
-        print(self.W.keys())
-   
+
 
     def evaluate(self, loader=None):
         return eval_op(self.model, self.eval_loader if not loader else loader)
@@ -130,3 +141,7 @@ class Server(FederatedTrainingDevice):
         if name:
             self.model.load_state_dict(torch.load(os.path.join(path,name)))
             if verbose: print("Loaded model from", os.path.join(path,name))
+
+
+    def compute_pairwise_angles_layerwise(self, clients):
+        return {"sim_"+key : pairwise_angles([{key : client.dW[key]} for client in clients]) for key in clients[0].dW}

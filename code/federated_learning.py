@@ -50,6 +50,7 @@ def run_experiment(xp, xp_count, n_experiments):
 
     # print model
     models.print_model(server.model)
+    xp.log({"shared_layers" : list(server.W.keys())})
 
     # Start Distributed Training Process
     print("Start Distributed Training..\n")
@@ -93,6 +94,12 @@ def run_experiment(xp, xp_count, n_experiments):
             print("Remaining Time (approx.):", '{:02d}:{:02d}:{:02d}'.format(e // 3600, (e % 3600 // 60), e % 60), 
                     "[{:.2f}%]\n".format(c_round/hp['communication_rounds']*100))
 
+    for i, client in enumerate(clients):
+        client.synchronize_with_server(server)
+        client.compute_weight_update(hp["local_epochs"])  
+    xp.log(server.compute_pairwise_angles_layerwise(clients), printout=False)
+    xp.save_to_disc(path=RESULTS_PATH, name=hp['log_path'])
+    
     # Save model to disk
     server.save_model(path=CHECKPOINT_PATH, name=hp["save_model"])
 
