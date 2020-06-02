@@ -32381,3 +32381,419 @@ Remaining Time (approx.): 00:01:01 [95.00%]
   0%|          | 0/10 [00:00<?, ?it/s] 40%|████      | 4/10 [00:00<00:00, 36.12it/s] 80%|████████  | 8/10 [00:00<00:00, 35.31it/s]100%|██████████| 10/10 [00:00<00:00, 28.60it/s]100%|██████████| 10/10 [00:00<00:00, 30.20it/s]
 {'mean_accuracy': 0.794995829451857}
   0%|          | 0/10 [00:00<?, ?it/s] 20%|██        | 2/10 [00:00<00:00, 15.86it/s] 60%|██████    | 6/10 [00:00<00:00, 19.28it/s] 90%|█████████ | 9/10 [00:00<00:00, 20.73it/s]100%|██████████| 10/10 [00:00<00:00, 26.19it/s]
+{'mean_accuracy': 0.794618523932768}
+  0%|          | 0/10 [00:00<?, ?it/s] 30%|███       | 3/10 [00:00<00:00, 18.65it/s] 70%|███████   | 7/10 [00:00<00:00, 21.33it/s]100%|██████████| 10/10 [00:00<00:00, 21.44it/s]100%|██████████| 10/10 [00:00<00:00, 23.58it/s]
+{'mean_accuracy': 0.7947154281659142}
+  0%|          | 0/10 [00:00<?, ?it/s] 20%|██        | 2/10 [00:00<00:00, 17.90it/s] 60%|██████    | 6/10 [00:00<00:00, 20.82it/s] 80%|████████  | 8/10 [00:00<00:00, 20.05it/s]100%|██████████| 10/10 [00:00<00:00, 25.24it/s]
+{'mean_accuracy': 0.7943879227273518}
+  0%|          | 0/10 [00:00<?, ?it/s] 40%|████      | 4/10 [00:00<00:00, 25.53it/s] 70%|███████   | 7/10 [00:00<00:00, 25.34it/s]100%|██████████| 10/10 [00:00<00:00, 26.95it/s]
+{'mean_accuracy': 0.7945090475651518}
+  0%|          | 0/10 [00:00<?, ?it/s] 40%|████      | 4/10 [00:00<00:00, 33.95it/s] 60%|██████    | 6/10 [00:00<00:00, 24.59it/s] 90%|█████████ | 9/10 [00:00<00:00, 25.17it/s]100%|██████████| 10/10 [00:00<00:00, 25.50it/s]
+Experiment: main (12/16)
+{'communication_round': 960, 'epochs': 960}
+Saved results to  /opt/small_files/layers_compare_big/xp_61538.npz
+Remaining Time (approx.): 00:00:49 [96.00%]
+
+{'mean_accuracy': 0.7944459411313558}
+  0%|          | 0/10 [00:00<?, ?it/s] 30%|███       | 3/10 [00:00<00:00, 29.57it/s] 50%|█████     | 5/10 [00:00<00:00, 23.54it/s] 70%|███████   | 7/10 [00:00<00:00, 21.68it/s]100%|██████████| 10/10 [00:00<00:00, 23.86it/s]
+{'mean_accuracy': 0.7943628342268361}
+  0%|          | 0/10 [00:00<?, ?it/s] 30%|███       | 3/10 [00:00<00:00, 26.21it/s] 60%|██████    | 6/10 [00:00<00:00, 25.38it/s]100%|██████████| 10/10 [00:00<00:00, 25.36it/s]100%|██████████| 10/10 [00:00<00:00, 25.02it/s]
+{'mean_accuracy': 0.794176070803714}
+  0%|          | 0/10 [00:00<?, ?it/s] 30%|███       | 3/10 [00:00<00:00, 26.00it/s] 50%|█████     | 5/10 [00:00<00:00, 22.90it/s] 80%|████████  | 8/10 [00:00<00:00, 22.99it/s]100%|██████████| 10/10 [00:00<00:00, 22.78it/s]
+{'mean_accuracy': 0.7943341133891018}
+  0%|          | 0/10 [00:00<?, ?it/s] 30%|███       | 3/10 [00:00<00:00, 29.55it/s] 60%|██████    | 6/10 [00:00<00:00, 29.21it/s] 90%|█████████ | 9/10 [00:00<00:00, 28.47it/s]100%|██████████| 10/10 [00:00<00:00, 26.86it/s]
+{'mean_accuracy': 0.7940497987372757}
+  0%|          | 0/10 [00:00<?, ?it/s] 40%|████      | 4/10 [00:00<00:00, 33.52it/s] 80%|████████  | 8/10 [00:00<00:00, 33.95it/s]100%|██████████| 10/10 [00:00<00:00, 34.12it/s]
+{'mean_accuracy': 0.7938047823272834}
+  0%|          | 0/10 [00:00<?, ?it/s] 20%|██        | 2/10 [00:00<00:00, 19.73it/s] 60%|██████    | 6/10 [00:00<00:00, 22.59it/s] 90%|█████████ | 9/10 [00:00<00:00, 21.91it/s]100%|██████████| 10/10 [00:00<00:00, 23.90it/s]
+{'mean_accuracy': 0.7941366149870308}
+  0%|          | 0/10 [00:00<?, ?it/s] 30%|███       | 3/10 [00:00<00:00, 24.49it/s] 60%|██████    | 6/10 [00:00<00:00, 24.95it/s] 90%|█████████ | 9/10 [00:00<00:00, 25.37it/s]100%|██████████| 10/10 [00:00<00:00, 22.03it/s]
+{'mean_accuracy': 0.794105621143236}
+  0%|          | 0/10 [00:00<?, ?it/s] 40%|████      | 4/10 [00:00<00:00, 29.98it/s] 70%|███████   | 7/10 [00:00<00:00, 28.52it/s]100%|██████████| 10/10 [00:00<00:00, 32.07it/s]
+{'mean_accuracy': 0.793990333996737}
+  0%|          | 0/10 [00:00<?, ?it/s] 20%|██        | 2/10 [00:00<00:00, 18.51it/s] 60%|██████    | 6/10 [00:00<00:00, 21.65it/s]100%|██████████| 10/10 [00:00<00:00, 31.80it/s]
+{'mean_accuracy': 0.7942243463463354}
+  0%|          | 0/10 [00:00<?, ?it/s] 40%|████      | 4/10 [00:00<00:00, 35.08it/s] 60%|██████    | 6/10 [00:00<00:00, 27.87it/s] 80%|████████  | 8/10 [00:00<00:00, 23.83it/s]100%|██████████| 10/10 [00:00<00:00, 22.19it/s]100%|██████████| 10/10 [00:00<00:00, 22.86it/s]
+Experiment: main (12/16)
+{'communication_round': 970, 'epochs': 970}
+Saved results to  /opt/small_files/layers_compare_big/xp_61538.npz
+Remaining Time (approx.): 00:00:37 [97.00%]
+
+{'mean_accuracy': 0.7937442205698609}
+  0%|          | 0/10 [00:00<?, ?it/s] 30%|███       | 3/10 [00:00<00:00, 26.65it/s] 70%|███████   | 7/10 [00:00<00:00, 28.85it/s]100%|██████████| 10/10 [00:00<00:00, 33.65it/s]
+{'mean_accuracy': 0.7934587859727344}
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:00<00:00,  9.76it/s] 50%|█████     | 5/10 [00:00<00:00, 12.32it/s] 80%|████████  | 8/10 [00:00<00:00, 14.04it/s]100%|██████████| 10/10 [00:00<00:00, 23.27it/s]
+{'mean_accuracy': 0.7928516216928159}
+  0%|          | 0/10 [00:00<?, ?it/s] 30%|███       | 3/10 [00:00<00:00, 23.00it/s] 50%|█████     | 5/10 [00:00<00:00, 17.79it/s] 80%|████████  | 8/10 [00:00<00:00, 19.72it/s]100%|██████████| 10/10 [00:00<00:00, 21.53it/s]
+{'mean_accuracy': 0.7920602344976564}
+  0%|          | 0/10 [00:00<?, ?it/s] 20%|██        | 2/10 [00:00<00:00, 19.08it/s] 50%|█████     | 5/10 [00:00<00:00, 20.78it/s] 80%|████████  | 8/10 [00:00<00:00, 21.48it/s]100%|██████████| 10/10 [00:00<00:00, 20.88it/s]100%|██████████| 10/10 [00:00<00:00, 22.21it/s]
+{'mean_accuracy': 0.7917903521020481}
+  0%|          | 0/10 [00:00<?, ?it/s] 40%|████      | 4/10 [00:00<00:00, 30.64it/s] 80%|████████  | 8/10 [00:00<00:00, 29.69it/s]100%|██████████| 10/10 [00:00<00:00, 28.32it/s]
+{'mean_accuracy': 0.7918907223482498}
+  0%|          | 0/10 [00:00<?, ?it/s] 30%|███       | 3/10 [00:00<00:00, 25.83it/s] 50%|█████     | 5/10 [00:00<00:00, 23.45it/s] 80%|████████  | 8/10 [00:00<00:00, 24.47it/s]100%|██████████| 10/10 [00:00<00:00, 25.75it/s]
+{'mean_accuracy': 0.7930005933396536}
+  0%|          | 0/10 [00:00<?, ?it/s] 20%|██        | 2/10 [00:00<00:00, 14.97it/s] 50%|█████     | 5/10 [00:00<00:00, 16.24it/s] 80%|████████  | 8/10 [00:00<00:00, 17.77it/s]100%|██████████| 10/10 [00:00<00:00, 18.29it/s]100%|██████████| 10/10 [00:00<00:00, 19.40it/s]
+{'mean_accuracy': 0.792662711825903}
+  0%|          | 0/10 [00:00<?, ?it/s] 20%|██        | 2/10 [00:00<00:00, 19.80it/s] 50%|█████     | 5/10 [00:00<00:00, 21.72it/s] 70%|███████   | 7/10 [00:00<00:00, 21.06it/s]100%|██████████| 10/10 [00:00<00:00, 26.69it/s]
+{'mean_accuracy': 0.7937358508189583}
+  0%|          | 0/10 [00:00<?, ?it/s] 30%|███       | 3/10 [00:00<00:00, 26.69it/s] 60%|██████    | 6/10 [00:00<00:00, 25.40it/s] 90%|█████████ | 9/10 [00:00<00:00, 25.70it/s]100%|██████████| 10/10 [00:00<00:00, 26.45it/s]
+{'mean_accuracy': 0.794095120426965}
+  0%|          | 0/10 [00:00<?, ?it/s] 30%|███       | 3/10 [00:00<00:00, 22.62it/s] 60%|██████    | 6/10 [00:00<00:00, 22.98it/s] 80%|████████  | 8/10 [00:00<00:00, 21.96it/s]100%|██████████| 10/10 [00:00<00:00, 24.43it/s]
+Experiment: main (12/16)
+{'communication_round': 980, 'epochs': 980}
+Saved results to  /opt/small_files/layers_compare_big/xp_61538.npz
+Remaining Time (approx.): 00:00:24 [98.00%]
+
+{'mean_accuracy': 0.7958554601729304}
+  0%|          | 0/10 [00:00<?, ?it/s] 40%|████      | 4/10 [00:00<00:00, 25.04it/s] 80%|████████  | 8/10 [00:00<00:00, 26.59it/s]100%|██████████| 10/10 [00:00<00:00, 26.59it/s]
+{'mean_accuracy': 0.7943309280256321}
+  0%|          | 0/10 [00:00<?, ?it/s] 40%|████      | 4/10 [00:00<00:00, 28.58it/s] 70%|███████   | 7/10 [00:00<00:00, 26.78it/s]100%|██████████| 10/10 [00:00<00:00, 27.42it/s]
+{'mean_accuracy': 0.7940004964106703}
+  0%|          | 0/10 [00:00<?, ?it/s] 30%|███       | 3/10 [00:00<00:00, 23.14it/s] 50%|█████     | 5/10 [00:00<00:00, 21.93it/s] 80%|████████  | 8/10 [00:00<00:00, 19.79it/s]100%|██████████| 10/10 [00:00<00:00, 20.21it/s]
+{'mean_accuracy': 0.7943175676904143}
+  0%|          | 0/10 [00:00<?, ?it/s] 40%|████      | 4/10 [00:00<00:00, 34.60it/s] 60%|██████    | 6/10 [00:00<00:00, 24.59it/s] 90%|█████████ | 9/10 [00:00<00:00, 23.05it/s]100%|██████████| 10/10 [00:00<00:00, 23.24it/s]
+{'mean_accuracy': 0.7943102932217398}
+  0%|          | 0/10 [00:00<?, ?it/s] 20%|██        | 2/10 [00:00<00:00, 15.94it/s] 40%|████      | 4/10 [00:00<00:00, 16.19it/s] 70%|███████   | 7/10 [00:00<00:00, 18.50it/s]100%|██████████| 10/10 [00:00<00:00, 22.22it/s]
+{'mean_accuracy': 0.7941100569436347}
+  0%|          | 0/10 [00:00<?, ?it/s] 20%|██        | 2/10 [00:00<00:00, 15.80it/s] 50%|█████     | 5/10 [00:00<00:00, 17.67it/s] 90%|█████████ | 9/10 [00:00<00:00, 19.97it/s]100%|██████████| 10/10 [00:00<00:00, 23.44it/s]
+{'mean_accuracy': 0.7929852581824036}
+  0%|          | 0/10 [00:00<?, ?it/s] 40%|████      | 4/10 [00:00<00:00, 35.39it/s] 80%|████████  | 8/10 [00:00<00:00, 34.93it/s]100%|██████████| 10/10 [00:00<00:00, 35.11it/s]
+{'mean_accuracy': 0.7933392505724864}
+  0%|          | 0/10 [00:00<?, ?it/s] 40%|████      | 4/10 [00:00<00:00, 39.29it/s] 80%|████████  | 8/10 [00:00<00:00, 38.88it/s]100%|██████████| 10/10 [00:00<00:00, 38.98it/s]
+{'mean_accuracy': 0.7929934769580419}
+  0%|          | 0/10 [00:00<?, ?it/s] 50%|█████     | 5/10 [00:00<00:00, 35.26it/s] 70%|███████   | 7/10 [00:00<00:00, 25.35it/s]100%|██████████| 10/10 [00:00<00:00, 26.20it/s]100%|██████████| 10/10 [00:00<00:00, 26.44it/s]
+{'mean_accuracy': 0.7928996859902071}
+  0%|          | 0/10 [00:00<?, ?it/s] 20%|██        | 2/10 [00:00<00:00, 12.36it/s] 60%|██████    | 6/10 [00:00<00:00, 15.09it/s] 80%|████████  | 8/10 [00:00<00:00, 16.17it/s]100%|██████████| 10/10 [00:00<00:00, 21.88it/s]
+Experiment: main (12/16)
+{'communication_round': 990, 'epochs': 990}
+Saved results to  /opt/small_files/layers_compare_big/xp_61538.npz
+Remaining Time (approx.): 00:00:12 [99.00%]
+
+{'mean_accuracy': 0.7938593207430549}
+  0%|          | 0/10 [00:00<?, ?it/s] 40%|████      | 4/10 [00:00<00:00, 33.44it/s] 70%|███████   | 7/10 [00:00<00:00, 28.23it/s]100%|██████████| 10/10 [00:00<00:00, 25.94it/s]100%|██████████| 10/10 [00:00<00:00, 24.86it/s]
+{'mean_accuracy': 0.79538040232529}
+  0%|          | 0/10 [00:00<?, ?it/s] 30%|███       | 3/10 [00:00<00:00, 29.01it/s] 70%|███████   | 7/10 [00:00<00:00, 30.36it/s]100%|██████████| 10/10 [00:00<00:00, 32.21it/s]
+{'mean_accuracy': 0.7950892726411538}
+  0%|          | 0/10 [00:00<?, ?it/s] 40%|████      | 4/10 [00:00<00:00, 30.61it/s] 60%|██████    | 6/10 [00:00<00:00, 24.78it/s]100%|██████████| 10/10 [00:00<00:00, 25.24it/s]100%|██████████| 10/10 [00:00<00:00, 25.05it/s]
+{'mean_accuracy': 0.794721188985006}
+  0%|          | 0/10 [00:00<?, ?it/s] 30%|███       | 3/10 [00:00<00:00, 27.06it/s] 60%|██████    | 6/10 [00:00<00:00, 27.52it/s] 90%|█████████ | 9/10 [00:00<00:00, 26.49it/s]100%|██████████| 10/10 [00:00<00:00, 25.41it/s]
+{'mean_accuracy': 0.7949071246230295}
+  0%|          | 0/10 [00:00<?, ?it/s] 30%|███       | 3/10 [00:00<00:00, 27.83it/s] 60%|██████    | 6/10 [00:00<00:00, 28.19it/s] 90%|█████████ | 9/10 [00:00<00:00, 25.93it/s]100%|██████████| 10/10 [00:00<00:00, 27.39it/s]
+{'mean_accuracy': 0.7951708317949445}
+  0%|          | 0/10 [00:00<?, ?it/s] 40%|████      | 4/10 [00:00<00:00, 31.09it/s] 70%|███████   | 7/10 [00:00<00:00, 24.97it/s]100%|██████████| 10/10 [00:00<00:00, 26.11it/s]100%|██████████| 10/10 [00:00<00:00, 24.57it/s]
+{'mean_accuracy': 0.7953408601574616}
+  0%|          | 0/10 [00:00<?, ?it/s] 20%|██        | 2/10 [00:00<00:00, 16.24it/s] 60%|██████    | 6/10 [00:00<00:00, 19.67it/s]100%|██████████| 10/10 [00:00<00:00, 22.32it/s]100%|██████████| 10/10 [00:00<00:00, 28.62it/s]
+{'mean_accuracy': 0.7953866559623541}
+  0%|          | 0/10 [00:00<?, ?it/s] 40%|████      | 4/10 [00:00<00:00, 30.88it/s] 70%|███████   | 7/10 [00:00<00:00, 29.86it/s]100%|██████████| 10/10 [00:00<00:00, 32.19it/s]
+{'mean_accuracy': 0.7958522771794333}
+  0%|          | 0/10 [00:00<?, ?it/s] 40%|████      | 4/10 [00:00<00:00, 37.40it/s] 80%|████████  | 8/10 [00:00<00:00, 37.80it/s]100%|██████████| 10/10 [00:00<00:00, 29.21it/s]100%|██████████| 10/10 [00:00<00:00, 31.72it/s]
+{'mean_accuracy': 0.79532334831591}
+  0%|          | 0/10 [00:00<?, ?it/s] 40%|████      | 4/10 [00:00<00:00, 38.06it/s] 80%|████████  | 8/10 [00:00<00:00, 37.07it/s]100%|██████████| 10/10 [00:00<00:00, 33.53it/s]
+Experiment: main (12/16)
+{'communication_round': 1000, 'epochs': 1000}
+Saved results to  /opt/small_files/layers_compare_big/xp_61538.npz
+Remaining Time (approx.): 00:00:00 [100.00%]
+
+Hyperparameters: 
+ - dataset                 EMNIST
+ - net                     ConvNet
+ - n_clients               100
+ - dirichlet_alpha         0.1
+ - x_transform             None
+ - y_transform             shift
+ - communication_rounds    1000
+ - local_epochs            1
+ - participation_rate      0.1
+ - batch_size              128
+ - layers                  .*weight.*
+ - pretrained              None
+ - save_model              None
+ - log_frequency           -100
+ - log_path                layers_compare_big/
+ - job_id                  [51258]
+ - finished                False
+ - log_id                  50381
+
+Data split:
+ - Client 0: [ 0  0  0  3  0  0  0  0  0  0  0  0  4  6 13  0  0  0 25  1  0  4  0  0
+  0  0  1  0  0  0 24  3  2 11  0  1  0  0  0  0 58  0  2  0  0  0  0  0
+  1  0  0  0  0  0  0  0  0  0  0  0  0 27]
+ - Client 1: [140   0   0   0   0   0   0  50   0   0   9   0   0   1   0   2   1   0
+   0   0   1   1  33   0   0   0   1   0  34   1   0  49   0   1   0  17
+   2  31   0  15   0   0  42   0   0   0   0   0   0  30   0   0   0   4
+   1   5   0   0   1   1   0   0]
+ - Client 2: [  0   0   0   0 191   0 157   3  45   0   0  55  16   0   0   0   0   8
+   0   0   0   0   0   0   0   0   0   0  22   0   2   0   0   4   0   0
+ 120   1   0   0   2   0   0   0   0   1   0  22   0   0   2  10   0   0
+  13   0   2   1   0   0   0   0]
+ - Client 3: [ 0  0  0  0  0  7  0  0  0  1  0  0  4  0  2  1  0  0  0  0  0  0  0  1
+  0 34  0  0 62  0  1  0  0  0  4  9  0  0  0 26 10 20  3  0  0  0  0  6
+  0  7  0  0  0  1  0  1  1  0  0  0  4  0]
+ - Client 4: [  1   5   0   9 125   1  45   0  18  64   0   0   0   0   0   0   0   0
+   0   4   0   0   1   0   0   0   1   0  19   0   0   2   1  10   1   0
+   8   0   0   2   0   0   0   0   0   0   3   0   5   0   0   0   3   8
+   0   0   0   0   0   0   0   0]
+ - Client 5: [296 127   0   0   0   0   0   0   0   0   6   0  72   0   0   0   0   1
+   0   4   0   0   0   0   0   0   0   0   0   9   5   0  15  10   0   0
+   0   2   0   0  51   1   0   0   0   5   0   1   0   0   1   0   0   0
+   0   2   0   0  16   0   0   0]
+ - Client 6: [  0   0   6   0   0   0   0   0   1   5   0   0   0  12   0   0   0   1
+  10   1   0   1   1   0   0   0   0   0 138   5   0   0   0   1   0   6
+   0   0   0  15  74   0   0  61   0   0   4  24   0   9   0   3   0   0
+   2   0   0   0  31   0   0   0]
+ - Client 7: [  4   0   0  10   4   0  27  30 385  28   0   0   3   0   0   0   0  13
+   0   0   1   0   0   6   1   0   0   0   0  11   0   0   2   0  12   0
+   0   0   0   1   0  18   0   0  27   1   1   2  15   0  20   0   0   6
+   0   0   0   1   0   0   0   0]
+ - Client 8: [  1   0  13   0 274   0   0   0   1   0   1   9   0   0   0   0   0   0
+   1   0   0   0   0   3  12   0  42   0   0  68   0   2  11   0   1   0
+   1   0   4   2   1   0   0   4   0  14   0   0   4   0   0   0   4   6
+   0   3   0   8   0   0   0   0]
+ - Client 9: [ 77 318   0   0   0   0  34 168 146  39   0   0   0   0   0   0   0   4
+   0  13   0   0   0   0  61   0  15   0  17 229   0   0   0   0   0   3
+   0   0   0   0   0   0   1   0   0   0   0   0   0   0   0   1   0   0
+   0  74   0   0   0   0   0   0]
+.  .  .  .  .  .  .  .  .  .  
+.  .  .  .  .  .  .  .  .  .  
+.  .  .  .  .  .  .  .  .  .  
+ - Client 91: [  0   0   1   0   2   0  31   0   0   0   0   0   0   0   0   7   3   0
+   0   2   0   2   0 118   0   0   2   0 106   6  40   0   0   1   0   0
+   0   0   0   0  23   0   3   0   0   0   0   0   1   1   0   7   0   0
+   0   0   0   0   1   1   0   0]
+ - Client 92: [  5   0   0  46   1   0   1  13 235  14   0   0   6  12   3   0   0   0
+   0   0   0  10   1   0 387   0   0   0   0   0   0   0   0   0   0   0
+  16   0   0   0   0   0   0   3   0   0   0   0   3  35   4   0   0   0
+   0   0   0   5   2   0   0   0]
+ - Client 93: [  0  46  54 260   0   0   0   1   1   0   0   0   0   0   4   5   0   0
+   2   2   0   0   0   0  10   6   0   1  49   5  12  29   0   0   0   0
+   0   0   0   0   0   0   0  84   0   0   0   0   0   0   0   0  16   0
+   0   0   0   0   0   0   0  44]
+ - Client 94: [ 0  0 54  0  0  0  5 19  0 43  0  0  0  0  6 62  0  1  0  0  0  0  0  0
+  1 16  0  6  0  0  0  0  0  7  0  1  0  1  0  0  0  0  0 13  1  0  0  0
+  3  1  3  0  0  1  0  0  6  9  1  0  0  0]
+ - Client 95: [ 10   1 299   1   0   0   1   6   0   1   0   0   0   0   1   0   0   0
+   0   3   0   0   0   0   2   0   1   0   0  11  14  11   0   0   0   0
+   0   0   0   0   0   0   3   0   0   0   0  11   1   7   0  13   0   2
+   0   1   2   0   0   3   0   1]
+ - Client 96: [  0   0   0   3   0   9  56 168   0   0   0   0   0   0   0   0   0   4
+   4  24   0   0   1   9   0   0   0   0  43   0   0   1   0   0   0   0
+   0   0   5   0   0   0   0  10   0   0   0   0   0   1   0   0   0   0
+   0   0   0   4   0   0  20   0]
+ - Client 97: [ 2  0  0  0  0  0 40  0  0 67  0  0  0  0  5  0  0 16  0  0 11  0 14  0
+  0  0  0  0  0  0 42  0  6  0  0 12  0  0  0  3 12  0  0  0  0  0  0  0
+  0 24  0  2 11  0  0  0  0  3  0  0  9  0]
+ - Client 98: [  0   6 254   0  13  21   0   0   7   1   0   0   0   0   0   1   0   0
+   0   0   1   0  27   0   1   2   0   1   1   0   0   0   0   0   0   0
+   0   1   0   0   2   0   0   0   0   0   9   0   0   0   0   1   1   7
+   1   1   0   0   0   0   0   7]
+ - Client 99: [ 45   1   1   1  72  48   1   1   1   0   1   1  19   1   1   1   1   1
+   1  13  17   8   1   1   1   1   1   1   1  20   4   1   1   8   1   1
+   1   1   5 113   1   1   1   2   1   1   1   1   1   1   3   0   2   1
+   0   1   1   1   1   8   1   1]
+
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+dict_keys(['conv1.weight', 'conv2.weight', 'fc1.weight', 'fc2.weight', 'fc3.weight'])
+Model:
+ - conv1.weight                   [6, 1, 5, 5]
+ - conv1.bias                     [6]
+ - conv2.weight                   [16, 6, 5, 5]
+ - conv2.bias                     [16]
+ - fc1.weight                     [120, 256]
+ - fc1.bias                       [120]
+ - fc2.weight                     [84, 120]
+ - fc2.bias                       [84]
+ - fc3.weight                     [62, 84]
+ - fc3.bias                       [62]
+Total number of Parameters:  48846
+
+Start Distributed Training..
+
+{'mean_accuracy': 0.022360311369626545}
+  0%|          | 0/10 [00:00<?, ?it/s] 30%|███       | 3/10 [00:00<00:00, 23.43it/s] 70%|███████   | 7/10 [00:00<00:00, 25.85it/s]100%|██████████| 10/10 [00:00<00:00, 34.19it/s]
+Experiment: main (13/16)
+{'communication_round': 1, 'epochs': 1}
+Saved results to  /opt/small_files/layers_compare_big/xp_50381.npz
+Remaining Time (approx.): 00:15:35 [0.10%]
+
+{'mean_accuracy': 0.02305054969431407}
+  0%|          | 0/10 [00:00<?, ?it/s] 30%|███       | 3/10 [00:00<00:00, 26.12it/s] 70%|███████   | 7/10 [00:00<00:00, 28.60it/s]100%|██████████| 10/10 [00:00<00:00, 32.37it/s]
+{'mean_accuracy': 0.022314075936328462}
+  0%|          | 0/10 [00:00<?, ?it/s] 30%|███       | 3/10 [00:00<00:00, 24.91it/s] 70%|███████   | 7/10 [00:00<00:00, 27.45it/s]100%|██████████| 10/10 [00:00<00:00, 32.59it/s]
+{'mean_accuracy': 0.023320811867259837}
+  0%|          | 0/10 [00:00<?, ?it/s] 40%|████      | 4/10 [00:00<00:00, 33.94it/s] 70%|███████   | 7/10 [00:00<00:00, 30.77it/s]100%|██████████| 10/10 [00:00<00:00, 28.09it/s]100%|██████████| 10/10 [00:00<00:00, 27.37it/s]
+{'mean_accuracy': 0.027948051366199596}
+  0%|          | 0/10 [00:00<?, ?it/s] 50%|█████     | 5/10 [00:00<00:00, 44.51it/s] 80%|████████  | 8/10 [00:00<00:00, 35.52it/s]100%|██████████| 10/10 [00:00<00:00, 32.58it/s]
+{'mean_accuracy': 0.025436365018345123}
+  0%|          | 0/10 [00:00<?, ?it/s] 30%|███       | 3/10 [00:00<00:00, 21.85it/s] 60%|██████    | 6/10 [00:00<00:00, 22.99it/s] 90%|█████████ | 9/10 [00:00<00:00, 24.54it/s]100%|██████████| 10/10 [00:00<00:00, 25.16it/s]
+{'mean_accuracy': 0.02358830899398669}
+  0%|          | 0/10 [00:00<?, ?it/s] 50%|█████     | 5/10 [00:00<00:00, 44.37it/s] 90%|█████████ | 9/10 [00:00<00:00, 41.91it/s]100%|██████████| 10/10 [00:00<00:00, 36.17it/s]
+{'mean_accuracy': 0.024912221752600022}
+  0%|          | 0/10 [00:00<?, ?it/s] 40%|████      | 4/10 [00:00<00:00, 39.28it/s] 70%|███████   | 7/10 [00:00<00:00, 34.39it/s]100%|██████████| 10/10 [00:00<00:00, 32.55it/s]100%|██████████| 10/10 [00:00<00:00, 31.42it/s]
+{'mean_accuracy': 0.01942488530738934}
+  0%|          | 0/10 [00:00<?, ?it/s] 50%|█████     | 5/10 [00:00<00:00, 33.60it/s]100%|██████████| 10/10 [00:00<00:00, 37.26it/s]100%|██████████| 10/10 [00:00<00:00, 40.13it/s]
+{'mean_accuracy': 0.018685242689343053}
+  0%|          | 0/10 [00:00<?, ?it/s] 50%|█████     | 5/10 [00:00<00:00, 41.94it/s]100%|██████████| 10/10 [00:00<00:00, 40.98it/s]100%|██████████| 10/10 [00:00<00:00, 40.32it/s]
+Experiment: main (13/16)
+{'communication_round': 10, 'epochs': 10}
+Saved results to  /opt/small_files/layers_compare_big/xp_50381.npz
+Remaining Time (approx.): 00:14:58 [1.00%]
+
+{'mean_accuracy': 0.023329128125599678}
+  0%|          | 0/10 [00:00<?, ?it/s] 40%|████      | 4/10 [00:00<00:00, 37.65it/s] 70%|███████   | 7/10 [00:00<00:00, 33.01it/s]100%|██████████| 10/10 [00:00<00:00, 32.13it/s]
+{'mean_accuracy': 0.02407903047673703}
+  0%|          | 0/10 [00:00<?, ?it/s] 40%|████      | 4/10 [00:00<00:00, 35.81it/s] 90%|█████████ | 9/10 [00:00<00:00, 38.91it/s]100%|██████████| 10/10 [00:00<00:00, 40.45it/s]
+{'mean_accuracy': 0.021922227496783325}
+  0%|          | 0/10 [00:00<?, ?it/s] 40%|████      | 4/10 [00:00<00:00, 35.99it/s] 80%|████████  | 8/10 [00:00<00:00, 35.22it/s]100%|██████████| 10/10 [00:00<00:00, 32.22it/s]
+{'mean_accuracy': 0.020990968524186204}
+  0%|          | 0/10 [00:00<?, ?it/s] 40%|████      | 4/10 [00:00<00:00, 27.34it/s] 80%|████████  | 8/10 [00:00<00:00, 28.67it/s]100%|██████████| 10/10 [00:00<00:00, 31.06it/s]
+{'mean_accuracy': 0.022268545572383006}
+  0%|          | 0/10 [00:00<?, ?it/s] 40%|████      | 4/10 [00:00<00:00, 32.32it/s] 80%|████████  | 8/10 [00:00<00:00, 32.43it/s]100%|██████████| 10/10 [00:00<00:00, 34.97it/s]
+{'mean_accuracy': 0.025145429482270575}
+  0%|          | 0/10 [00:00<?, ?it/s] 50%|█████     | 5/10 [00:00<00:00, 45.16it/s] 90%|█████████ | 9/10 [00:00<00:00, 41.69it/s]100%|██████████| 10/10 [00:00<00:00, 42.31it/s]
+{'mean_accuracy': 0.025809446429662347}
+  0%|          | 0/10 [00:00<?, ?it/s] 40%|████      | 4/10 [00:00<00:00, 35.68it/s] 90%|█████████ | 9/10 [00:00<00:00, 38.41it/s]100%|██████████| 10/10 [00:00<00:00, 37.56it/s]
+{'mean_accuracy': 0.025194258055047464}
+  0%|          | 0/10 [00:00<?, ?it/s] 40%|████      | 4/10 [00:00<00:00, 35.47it/s] 90%|█████████ | 9/10 [00:00<00:00, 36.43it/s]100%|██████████| 10/10 [00:00<00:00, 36.26it/s]
+{'mean_accuracy': 0.02648916916660239}
+  0%|          | 0/10 [00:00<?, ?it/s] 40%|████      | 4/10 [00:00<00:00, 25.87it/s] 80%|████████  | 8/10 [00:00<00:00, 28.01it/s]100%|██████████| 10/10 [00:00<00:00, 27.69it/s]
+{'mean_accuracy': 0.02745954239491881}
+  0%|          | 0/10 [00:00<?, ?it/s] 20%|██        | 2/10 [00:00<00:00, 18.82it/s] 70%|███████   | 7/10 [00:00<00:00, 22.37it/s] 90%|█████████ | 9/10 [00:00<00:00, 20.81it/s]100%|██████████| 10/10 [00:00<00:00, 27.82it/s]
+Experiment: main (13/16)
+{'communication_round': 20, 'epochs': 20}
+Saved results to  /opt/small_files/layers_compare_big/xp_50381.npz
+Remaining Time (approx.): 00:14:40 [2.00%]
+
+{'mean_accuracy': 0.028367908446696635}
+  0%|          | 0/10 [00:00<?, ?it/s] 50%|█████     | 5/10 [00:00<00:00, 47.47it/s]100%|██████████| 10/10 [00:00<00:00, 48.10it/s]100%|██████████| 10/10 [00:00<00:00, 48.47it/s]
+{'mean_accuracy': 0.03321647625694411}
+  0%|          | 0/10 [00:00<?, ?it/s] 40%|████      | 4/10 [00:00<00:00, 36.32it/s] 70%|███████   | 7/10 [00:00<00:00, 33.42it/s]100%|██████████| 10/10 [00:00<00:00, 31.28it/s]100%|██████████| 10/10 [00:00<00:00, 30.57it/s]
+{'mean_accuracy': 0.03166670851627883}
+  0%|          | 0/10 [00:00<?, ?it/s] 40%|████      | 4/10 [00:00<00:00, 35.03it/s] 80%|████████  | 8/10 [00:00<00:00, 35.96it/s]100%|██████████| 10/10 [00:00<00:00, 35.29it/s]
+{'mean_accuracy': 0.02970113109577058}
+  0%|          | 0/10 [00:00<?, ?it/s] 50%|█████     | 5/10 [00:00<00:00, 40.34it/s] 90%|█████████ | 9/10 [00:00<00:00, 36.81it/s]100%|██████████| 10/10 [00:00<00:00, 36.00it/s]
+{'mean_accuracy': 0.02586969668836904}
+  0%|          | 0/10 [00:00<?, ?it/s] 40%|████      | 4/10 [00:00<00:00, 30.08it/s] 70%|███████   | 7/10 [00:00<00:00, 28.21it/s] 90%|█████████ | 9/10 [00:00<00:00, 22.42it/s]100%|██████████| 10/10 [00:00<00:00, 24.84it/s]
+{'mean_accuracy': 0.025585851871415856}
+  0%|          | 0/10 [00:00<?, ?it/s] 30%|███       | 3/10 [00:00<00:00, 27.66it/s] 80%|████████  | 8/10 [00:00<00:00, 30.10it/s]100%|██████████| 10/10 [00:00<00:00, 35.99it/s]
+{'mean_accuracy': 0.0265737082552187}
+  0%|          | 0/10 [00:00<?, ?it/s] 50%|█████     | 5/10 [00:00<00:00, 44.82it/s] 90%|█████████ | 9/10 [00:00<00:00, 41.55it/s]100%|██████████| 10/10 [00:00<00:00, 39.94it/s]
+{'mean_accuracy': 0.027665481145493418}
+  0%|          | 0/10 [00:00<?, ?it/s] 40%|████      | 4/10 [00:00<00:00, 37.46it/s] 80%|████████  | 8/10 [00:00<00:00, 36.60it/s]100%|██████████| 10/10 [00:00<00:00, 32.68it/s]
+{'mean_accuracy': 0.0331949297029671}
+  0%|          | 0/10 [00:00<?, ?it/s] 40%|████      | 4/10 [00:00<00:00, 34.02it/s] 90%|█████████ | 9/10 [00:00<00:00, 37.34it/s]100%|██████████| 10/10 [00:00<00:00, 40.08it/s]
+{'mean_accuracy': 0.03479577092647748}
+  0%|          | 0/10 [00:00<?, ?it/s] 40%|████      | 4/10 [00:00<00:00, 35.33it/s] 80%|████████  | 8/10 [00:00<00:00, 35.25it/s]100%|██████████| 10/10 [00:00<00:00, 38.45it/s]
+Experiment: main (13/16)
+{'communication_round': 30, 'epochs': 30}
+Saved results to  /opt/small_files/layers_compare_big/xp_50381.npz
+Remaining Time (approx.): 00:14:24 [3.00%]
+
+{'mean_accuracy': 0.039505604631206864}
+  0%|          | 0/10 [00:00<?, ?it/s] 50%|█████     | 5/10 [00:00<00:00, 44.74it/s] 80%|████████  | 8/10 [00:00<00:00, 34.39it/s]100%|██████████| 10/10 [00:00<00:00, 35.93it/s]
+{'mean_accuracy': 0.03711978000173173}
+  0%|          | 0/10 [00:00<?, ?it/s] 30%|███       | 3/10 [00:00<00:00, 24.59it/s] 80%|████████  | 8/10 [00:00<00:00, 28.45it/s]100%|██████████| 10/10 [00:00<00:00, 33.50it/s]
+{'mean_accuracy': 0.03626941619714516}
+  0%|          | 0/10 [00:00<?, ?it/s] 20%|██        | 2/10 [00:00<00:00, 19.41it/s] 60%|██████    | 6/10 [00:00<00:00, 22.33it/s]100%|██████████| 10/10 [00:00<00:00, 31.89it/s]
+{'mean_accuracy': 0.036375877467989995}
+  0%|          | 0/10 [00:00<?, ?it/s] 50%|█████     | 5/10 [00:00<00:00, 48.41it/s] 90%|█████████ | 9/10 [00:00<00:00, 41.95it/s]100%|██████████| 10/10 [00:00<00:00, 40.12it/s]
+{'mean_accuracy': 0.036614904585686385}
+  0%|          | 0/10 [00:00<?, ?it/s]
