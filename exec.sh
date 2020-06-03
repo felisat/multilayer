@@ -16,16 +16,16 @@ hyperparameters=' [{
 	"x_transform" : ["rotation", null],
 	"y_transform" : ["shift", null],
 
-	"communication_rounds" : [1000],
+	"communication_rounds" : [2000],
 	"local_epochs" : [1],
 	"participation_rate" : [0.1],
 	"batch_size" : [128],
-	"layers" : [".*weight.*", ".*bias.*"],
+	"layers" : ["all|."],
 
 	"pretrained" : [null],
 	"save_model" : [null],
 	"log_frequency" : [-100],
-	"log_path" : ["layers_compare_big/"],
+	"log_path" : ["layers_compare_angles/"],
 	"job_id" : [['$SLURM_JOB_ID']]}]'
 
 
