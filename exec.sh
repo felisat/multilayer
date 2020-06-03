@@ -16,7 +16,7 @@ hyperparameters=' [{
 	"x_transform" : ["rotation", null],
 	"y_transform" : ["shift", null],
 
-	"communication_rounds" : [2000],
+	"communication_rounds" : [1000],
 	"local_epochs" : [1],
 	"participation_rate" : [0.1],
 	"batch_size" : [128],
