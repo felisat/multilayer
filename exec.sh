@@ -13,8 +13,8 @@ hyperparameters=' [{
 	
 	"n_clients" : [100],
 	"dirichlet_alpha" : [100.0, 0.1],
-	"x_transform" : ["rotation", null],
-	"y_transform" : [null, "shift"],
+	"x_transform" : [null],
+	"y_transform" : ["shift"],
 
 	"communication_rounds" : [1000],
 	"local_epochs" : [1],
@@ -26,7 +26,7 @@ hyperparameters=' [{
 	"pretrained" : [null],
 	"save_model" : [null],
 	"log_frequency" : [-100],
-	"log_path" : ["layers_server_angles/"],
+	"log_path" : ["layers_local_training/"],
 	"job_id" : [['$SLURM_JOB_ID']]}]'
 
 
