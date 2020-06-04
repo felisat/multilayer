@@ -14,18 +14,19 @@ hyperparameters=' [{
 	"n_clients" : [100],
 	"dirichlet_alpha" : [100.0, 0.1],
 	"x_transform" : ["rotation", null],
-	"y_transform" : ["shift", null],
+	"y_transform" : [null, "shift"],
 
 	"communication_rounds" : [1000],
 	"local_epochs" : [1],
 	"participation_rate" : [0.1],
 	"batch_size" : [128],
-	"layers" : ["all|."],
+	"layers" : ["conv", "fc", ".*bias.*", ".*weight.*", "conv|fc1", "^((?!fc3\\.bias).)*$", "all|.",  "none",
+         "^((?!loc).)*$"],
 
 	"pretrained" : [null],
 	"save_model" : [null],
 	"log_frequency" : [-100],
-	"log_path" : ["layers_compare_angles/"],
+	"log_path" : ["layers_server_angles/"],
 	"job_id" : [['$SLURM_JOB_ID']]}]'
 
 

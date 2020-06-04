@@ -43,6 +43,10 @@ def flatten(source):
 def copy(target, source):
     for name in target:
         target[name].data = source[name].data.clone()
+
+def add(target, summand1, summand2):
+    for name in target:
+        target[name].data = summand1[name].data.clone()+summand2[name].data.clone()
       
 def subtract(target, minuend, subtrahend):
     for name in target:
@@ -58,11 +62,14 @@ def compress_and_accumulate(target, residual, compression_fn):
         target[name].data = compression_fn(residual[name].data.clone())
         residual[name].data -= target[name].data.clone()
     
-def reduce_add_average(target, sources):
+def reduce_average(target, sources):
     for name in target:
-        tmp = torch.mean(torch.stack([source[name].data for source in sources]), dim=0).clone()
-        target[name].data += tmp
+        target[name].data = torch.mean(torch.stack([source[name].data for source in sources]), dim=0).clone()
 
+def angles(source1, source2):
+    s1 = flatten(source1)
+    s2 = flatten(source2)
+    return (torch.sum(s1*s2)/(torch.norm(s1)*torch.norm(s2)+1e-8)).item()
 
 def pairwise_angles(sources):
     angles = torch.zeros([len(sources), len(sources)])
@@ -86,7 +93,7 @@ class FederatedTrainingDevice(object):
         self.eval_loader = DataLoader(data_eval, batch_size=batch_size, shuffle=True)
 
         self.W = {key : value for key, value in self.model.named_parameters() if re.match(layers, key)}
-
+        self.dW = {key : torch.zeros_like(value) for key, value in self.W.items()}
 
     def evaluate(self, loader=None):
         return eval_op(self.model, self.eval_loader if not loader else loader)
@@ -98,7 +105,7 @@ class Client(FederatedTrainingDevice):
         self.optimizer = optimizer_fn(self.model.parameters())
         self.id = idnum
         self.W_old = {key : torch.zeros_like(value) for key, value in self.W.items()}
-        self.dW = {key : torch.zeros_like(value) for key, value in self.W.items()}
+        
         self.R = {key : torch.zeros_like(value) for key, value in self.W.items()}
     
     def synchronize_with_server(self, server):
@@ -117,7 +124,8 @@ class Client(FederatedTrainingDevice):
             else:
                 compress(self.dW, compression_fn)
 
-
+    def compute_server_angle(self, server):
+        return {"client_{}_{}".format(self.id, key) : angles({key : self.dW[key]}, {key : server.dW[key]}) for key in self.dW}
 
 class Server(FederatedTrainingDevice):
     def __init__(self, model_fn, data, layers):
@@ -127,8 +135,8 @@ class Server(FederatedTrainingDevice):
         return random.sample(clients, int(len(clients)*frac)) 
 
     def aggregate_weight_updates(self, clients):
-        reduce_add_average(target=self.W, sources=[client.dW for client in clients])
-
+        reduce_average(target=self.dW, sources=[client.dW for client in clients])
+        add(target=self.W, summand1=self.W, summand2=self.dW)
 
     def save_model(self, path=None, name=None, verbose=True):
         if name:
