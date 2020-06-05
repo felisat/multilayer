@@ -1,0 +1,56 @@
+###### Statistics for Job: 53511 
+JobId          : 53511
+JobIdRaw       : 53511
+Job Name       : exec.sh
+User           : fsattler
+Nodes          : vca-gpu-211-02
+State          : COMPLETED
+ExitCode       : 0:0
+Elapsed time   : 07:37:02 hh:mm:ss
+CPU total time : 07:32:14 hh:mm:ss
+CPU count      : 16
+CPU usage      : 6.18 %
+Max mem (phys.):    3.0GB  on node: vca-gpu-211-02   in task: 0
+Max mem (virt.):     11GB
+Max disk read  :    9.6GB
+Max disk write :    3.7GB
+GPU stats: 
+Successfully retrieved statistics for job: 53511. 
++------------------------------------------------------------------------------+
+| GPU ID: 1                                                                    |
++====================================+=========================================+
+|-----  Execution Stats  ------------+-----------------------------------------|
+| Start Time                         | Thu Jun  4 10:34:17 2020                |
+| End Time                           | Thu Jun  4 18:11:21 2020                |
+| Total Execution Time (sec)         | 27423.7                                 |
+| No. of Processes                   | 1                                       |
++-----  Performance Stats  ----------+-----------------------------------------+
+| Energy Consumed (Joules)           | 135875                                  |
+| Power Usage (Watts)                | Avg: 37.7878, Max: 39.772, Min: 36.432  |
+| Max GPU Memory Used (bytes)        | 1204813824                              |
+| SM Clock (MHz)                     | Avg: 1230, Max: 1230, Min: 1230         |
+| Memory Clock (MHz)                 | Avg: 877, Max: 877, Min: 877            |
+| SM Utilization (%)                 | Avg: 5, Max: 33, Min: 0                 |
+| Memory Utilization (%)             | Avg: 0, Max: 1, Min: 0                  |
+| PCIe Rx Bandwidth (megabytes)      | Avg: 1112, Max: 1230, Min: 994          |
+| PCIe Tx Bandwidth (megabytes)      | Avg: 873, Max: 890, Min: 857            |
++-----  Event Stats  ----------------+-----------------------------------------+
+| Single Bit ECC Errors              | 0                                       |
+| Double Bit ECC Errors              | 0                                       |
+| PCIe Replay Warnings               | 0                                       |
+| Critical XID Errors                | 0                                       |
++-----  Slowdown Stats  -------------+-----------------------------------------+
+| Due to - Power (%)                 | 0                                       |
+|        - Thermal (%)               | 0                                       |
+|        - Reliability (%)           | Not Supported                           |
+|        - Board Limit (%)           | Not Supported                           |
+|        - Low Utilization (%)       | Not Supported                           |
+|        - Sync Boost (%)            | 0                                       |
++--  Compute Process Utilization  ---+-----------------------------------------+
+| PID                                | 65169                                   |
+|     Avg SM Utilization (%)         | 5                                       |
+|     Avg Memory Utilization (%)     | 0                                       |
++-----  Overall Health  -------------+-----------------------------------------+
+| Overall Health                     | Healthy                                 |
++------------------------------------+-----------------------------------------+
+
